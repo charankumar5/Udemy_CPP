@@ -1,0 +1,7 @@
+22:52:06 **** Incremental Build of configuration Debug for project Day1_addNumbers ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\addNumbers.o" "..\\myCode\\addNumbers.cpp" 
+g++ -o Day1_addNumbers.exe "myCode\\addNumbers.o" "myCode\\main.o" 
+
+22:52:06 Build Finished. 0 errors, 0 warnings. (took 537ms)
+

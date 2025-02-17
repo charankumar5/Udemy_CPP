@@ -1,0 +1,7 @@
+16:03:05 **** Incremental Build of configuration Debug for project Day3_Char_Text ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day3_Char_Text.exe "myCode\\main.o" 
+
+16:03:06 Build Finished. 0 errors, 0 warnings. (took 590ms)
+

@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  cout << exp(0) << endl;
+  cout << exp(1) <<  endl;
+  cout << exp(10) << endl;
+  cout << exp(4.8) << endl;
+  cout << exp(2.718) <<  endl;
+  cout << floor(0.60) << endl;
+  cout << floor(0.40)<< endl;
+  cout << floor(5)<< endl;
+  cout << floor(5.1)<< endl;
+  cout << floor(-5.1)<< endl;
+  cout << floor(-5.9)<< endl;
+  cout << log(6.0f);
+  cout << log(E);
+  cout << log(2.0);
+  cout << log(1.0);
+  cout << log(0.0);
+  cout << log(-1.0f);
+  return 0;
+}

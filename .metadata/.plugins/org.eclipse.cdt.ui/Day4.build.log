@@ -1,0 +1,7 @@
+15:41:43 **** Rebuild of configuration Debug for project Day4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "CharText\\main.o" "..\\CharText\\main.cpp" 
+g++ -shared -o libDay4.dll "CharText\\main.o" 
+
+15:41:44 Build Finished. 0 errors, 0 warnings. (took 670ms)
+

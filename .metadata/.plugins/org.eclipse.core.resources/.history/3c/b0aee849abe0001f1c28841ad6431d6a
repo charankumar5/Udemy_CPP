@@ -1,0 +1,24 @@
+// Standard (system) header files
+#include <iostream>
+#include <cstdlib>
+// Add more standard header files as required
+// #include <string>
+
+using namespace std;
+
+// Add your project's header files here
+// #include "CFraction.h"
+
+// Main program
+int main ()
+{
+    // TODO: Add your program code here
+	cout << "Day3_Char_Text started." << endl << endl;
+	char charecter {'a'};
+	cout << charecter << endl;
+	char charecter2 {34};
+	cout << charecter2 << endl;
+	char charecter2 {34};
+	cout << charecter2 << endl;
+	return 0;
+}
