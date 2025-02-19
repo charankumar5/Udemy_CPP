@@ -1,5 +1,45 @@
-20:55:29 **** Rebuild of configuration Debug for project Day4_cmath ****
+20:41:09 **** Rebuild of configuration Debug for project Day6_Integral_Logic_Opeations ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day4_cmath.exe "myCode\\main.o" 
-Info: Nothing to build for Day4_cmath
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 
+Info: Nothing to build for Day6_Integral_Logic_Opeations
+20:42:26 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+..\myCode\main.cpp: In function 'int main()':
+..\myCode\main.cpp:37:39: error: 'statc_cast' was not declared in this scope; did you mean 'static_assert'?
+   37 |                 cout << "value1: " << statc_cast<bool>(value1) << endl;
+      |                                       ^~~~~~~~~~
+      |                                       static_assert
+..\myCode\main.cpp:37:50: error: expected primary-expression before 'bool'
+   37 |                 cout << "value1: " << statc_cast<bool>(value1) << endl;
+      |                                                  ^~~~
+..\myCode\main.cpp:39:39: error: 'statc_cast' was not declared in this scope; did you mean 'static_assert'?
+   39 |                 cout << "value1: " << statc_cast<bool>(value1) << endl;
+      |                                       ^~~~~~~~~~
+      |                                       static_assert
+..\myCode\main.cpp:39:50: error: expected primary-expression before 'bool'
+   39 |                 cout << "value1: " << statc_cast<bool>(value1) << endl;
+      |                                                  ^~~~
+20:43:17 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 
+Info: Nothing to build for Day6_Integral_Logic_Opeations
+20:44:26 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 
+Info: Nothing to build for Day6_Integral_Logic_Opeations
+20:45:37 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 
+20:47:52 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 
+20:48:37 **** Incremental Build of configuration Debug for project Day6_Integral_Logic_Opeations ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day6_Integral_Logic_Opeations.exe "myCode\\main.o" 

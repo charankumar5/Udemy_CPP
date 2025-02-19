@@ -10,13 +10,14 @@ using namespace std;
 // #include "CFraction.h"
 
 // Main program
-int main ()
+int main()
 {
-    // TODO: Add your program code here
+	// TODO: Add your program code here
 	cout << "Day5_Data_Overfolw_Underflow started." << endl << endl;
 
 	// check here how it work if it is with in the limits.
-	unsigned char data {250};
+	unsigned char data
+	{ 250 };
 	++data;
 	cout << "data: " << data << endl; // 251
 	++data;
