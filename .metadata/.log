@@ -1010,3 +1010,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-02-19 20:38:37.883
 !MESSAGE Indexed 'Day6_Integral_Logic_Opeations' (1 sources, 147 headers) in 8.93 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-19 20:55:48.270
+!MESSAGE Indexed 'Day6_Ternary_Operator' (1 sources, 147 headers) in 3.94 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
