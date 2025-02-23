@@ -1,13 +1,25 @@
-21:01:04 **** Incremental Build of configuration Debug for project Day6_Ternary_Operator ****
+08:57:40 **** Incremental Build of configuration Debug for project Day7_Control_Flow_Assignments ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day6_Ternary_Operator.exe "myCode\\main.o" 
-Info: Nothing to build for Day6_Ternary_Operator
-21:01:40 **** Incremental Build of configuration Debug for project Day6_Ternary_Operator ****
+g++ -o Day7_Control_Flow_Assignments.exe "myCode\\main.o" 
+Info: Nothing to build for Day7_Control_Flow_Assignments
+Info: Nothing to build for Day7_Control_Flow_Assignments
+Info: Nothing to build for Day7_Control_Flow_Assignments
+Info: Nothing to build for Day7_Control_Flow_Assignments
+11:45:54 **** Incremental Build of configuration Debug for project Day7_Control_Flow_Assignments ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day6_Ternary_Operator.exe "myCode\\main.o" 
-21:02:28 **** Incremental Build of configuration Debug for project Day6_Ternary_Operator ****
+..\myCode\main.cpp: In function 'int main()':
+..\myCode\main.cpp:90:19: warning: unused variable 'count' [-Wunused-variable]
+   90 |         const int count = 10;
+      |                   ^~~~~
+g++ -o Day7_Control_Flow_Assignments.exe "myCode\\main.o" 
+11:46:15 **** Incremental Build of configuration Debug for project Day7_Control_Flow_Assignments ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day6_Ternary_Operator.exe "myCode\\main.o" 
+g++ -o Day7_Control_Flow_Assignments.exe "myCode\\main.o" 
+Info: Nothing to build for Day7_Control_Flow_Assignments
+11:46:30 **** Incremental Build of configuration Debug for project Day7_Control_Flow_Assignments ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day7_Control_Flow_Assignments.exe "myCode\\main.o" 
