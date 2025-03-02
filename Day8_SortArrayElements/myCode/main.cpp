@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <algorithm>
+
 // Add more standard header files as required
 // #include <string>
 
@@ -42,5 +43,6 @@ int main ()
 	}
 	std::cout << std::boolalpha;
 	std::cout << sorted << std::endl;
+
 	return sorted;
 }

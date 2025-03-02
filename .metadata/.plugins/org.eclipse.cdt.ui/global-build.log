@@ -1,5 +1,6 @@
-06:58:02 **** Incremental Build of configuration Debug for project Day8_SortArrayElements ****
+Info: Nothing to build for Day9_ArrayBounds
+Info: Nothing to build for Day9_ArrayBounds
+10:01:17 **** Incremental Build of configuration Debug for project Day9_ArrayBounds ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day8_SortArrayElements.exe "myCode\\main.o" 
-Info: Nothing to build for Day8_SortArrayElements
+g++ -o Day9_ArrayBounds.exe "myCode\\main.o" 
