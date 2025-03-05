@@ -1,5 +1,9 @@
-05:29:32 **** Incremental Build of configuration Debug for project Day10_Ptr_Char&Strings ****
+07:12:21 **** Incremental Build of configuration Debug for project Day10_Pointer_to_const ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day10_Ptr_Char&Strings.exe "myCode\\main.o" 
-Info: Nothing to build for Day10_Ptr_Char&Strings
+g++ -o Day10_Pointer_to_const.exe "myCode\\main.o" 
+Info: Nothing to build for Day10_Pointer_to_const
+07:12:42 **** Incremental Build of configuration Debug for project Day10_Pointer_to_const ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
+g++ -o Day10_Pointer_to_const.exe "myCode\\main.o" 

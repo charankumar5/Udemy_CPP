@@ -34,5 +34,24 @@ int main ()
 
 	std::cout << "message1: " << message1 << std::endl;
 
+
+	// Arrays of pointer to char.
+
+	const char *predictions [] {
+			"AI will automate more jobs",
+			"Quantum computing will revolutionize cybersecurity",
+			"Electric vehicles will dominate global markets",
+			"Space tourism will become more affordable",
+			"Renewable energy will surpass fossil fuels",
+			"Personalized medicine will extend human lifespan",
+			"Blockchain will transform supply chains",
+			"Smart cities will optimize urban living",
+			"Augmented reality will redefine online shopping",
+			"AI-generated content will challenge traditional media",
+			"3D printing will disrupt manufacturing"
+	};
+
+	std::srand(time(0));
+	std::cout << "predictions: " << predictions[std::rand() %10] << std::endl; // print random line
 	return 0;
 }
