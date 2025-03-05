@@ -1,6 +1,5 @@
-Info: Nothing to build for Day9_ArrayBounds
-Info: Nothing to build for Day9_ArrayBounds
-10:01:17 **** Incremental Build of configuration Debug for project Day9_ArrayBounds ****
+05:29:32 **** Incremental Build of configuration Debug for project Day10_Ptr_Char&Strings ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day9_ArrayBounds.exe "myCode\\main.o" 
+g++ -o Day10_Ptr_Char&Strings.exe "myCode\\main.o" 
+Info: Nothing to build for Day10_Ptr_Char&Strings
