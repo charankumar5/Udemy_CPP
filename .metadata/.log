@@ -1333,3 +1333,6 @@ Binding(CTRL+INSERT,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.console.ConsoleView,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-05 22:20:03.739
+!MESSAGE Indexed 'Day10_Pointer_Arithmatics' (1 sources, 147 headers) in 4.89 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
