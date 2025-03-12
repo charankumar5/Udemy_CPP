@@ -1388,3 +1388,6 @@ C Model Exception: C Model Status [Element main.cpp does not exist.]
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-03-12 20:52:45.352
 !MESSAGE Element main.cpp does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-12 21:04:18.774
+!MESSAGE Indexed 'Day11_Dangling_Pointers' (1 sources, 147 headers) in 4.92 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
