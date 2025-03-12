@@ -42,5 +42,19 @@ int main ()
 		std::cout << *(arr0+i) << " ";
 	}
 	std::cout << std::endl;
+
+
+
+	int * ptr_arr1 {arr0 + 1};
+	int * ptr_arr2 {arr0 + 4};
+
+	std::cout << *ptr_arr1 << std::endl;
+	std::cout << *ptr_arr2 << std::endl;
+
+	ptr_arr1 = &arr0[1];
+	ptr_arr2 = &arr0[4];
+
+	std::cout << *ptr_arr1 << std::endl;
+	std::cout << *ptr_arr2 << std::endl;
 	return 0;
 }
