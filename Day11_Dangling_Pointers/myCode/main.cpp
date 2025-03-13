@@ -42,7 +42,7 @@ int main ()
     cout << p_number2 << endl;
 
     //now delete pointer 1 automatically pointer2 will be dangling pointer,
-    // Becuase, it does not have proper memory location.
+    // Because, it does not have proper memory location.
 
     delete p_number1;
     p_number1 = nullptr;
