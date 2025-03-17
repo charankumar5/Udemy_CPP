@@ -1428,3 +1428,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-17 21:24:17.083
 !MESSAGE Indexed 'Day12_References_With_Arrays' (1 sources, 147 headers) in 30.5 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-17 22:13:52.589
+!MESSAGE Indexed 'Day13_Functions' (1 sources, 147 headers) in 10.7 sec: 17,989 declarations; 31,536 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.01%)
