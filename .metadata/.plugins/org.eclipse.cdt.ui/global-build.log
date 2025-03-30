@@ -1,5 +1,5 @@
-23:21:28 **** Incremental Build of configuration Debug for project Day13_Functions_Showing_Odds ****
+18:33:32 **** Incremental Build of configuration Debug for project Day15_Friend_Operator_Overloading ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
-g++ -o Day13_Functions_Showing_Odds.exe "myCode\\main.o" 
-Info: Nothing to build for Day13_Functions_Showing_Odds
+g++ -o Day15_Friend_Operator_Overloading.exe "myCode\\main.o" 
+Info: Nothing to build for Day15_Friend_Operator_Overloading
