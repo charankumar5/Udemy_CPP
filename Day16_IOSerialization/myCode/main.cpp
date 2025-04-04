@@ -18,6 +18,7 @@ public:
 	// operator overloading.
 	// ostream << operator
 	friend std::ostream &operator <<(std::ostream &ofs, student &s);
+	friend std::ifstream &operator >>(std::ifstream &ifs, student &s);
 };
 
 //implement outside of the class.
@@ -26,6 +27,12 @@ std::ostream &operator <<(std::ostream &ofs, student &s){
 	ofs << s.rollnumber << std::endl;
 	ofs << s.school << std::endl;
 	return ofs;
+}
+
+std::ifstream &operator >>(std::ifstream &ifs, student &s) {
+
+	ifs>>s.name>>s.rollnumber>>s.school;
+	return ifs;
 }
 
 
@@ -54,6 +61,14 @@ int main ()
 	ofs << s1;
 	ofs.close();
 
+	// now how to read from the file.
+	std::ifstream ifs("student.txt");
+	ifs>>s1;
+	std::cout << "student details" << std::endl;
+	std::cout << s1.name << std::endl;
+	std::cout << s1.rollnumber << std::endl;
+	std::cout << s1.school << std::endl;
+	ifs.close();
 
 
 	return 0;

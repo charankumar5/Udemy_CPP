@@ -1,4 +1,4 @@
-06:31:54 **** Incremental Build of configuration Debug for project Day16_IOSerialization ****
+06:44:40 **** Incremental Build of configuration Debug for project Day16_IOSerialization ****
 Info: Internal Builder is used for build
 g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wall -Werror=return-type -o "myCode\\main.o" "..\\myCode\\main.cpp" 
 g++ -o Day16_IOSerialization.exe "myCode\\main.o" 
